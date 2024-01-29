@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ToolBoxModule"]
+  },
+  "android": {
+    "modules": ["loggi.module.toolbox.ToolBoxModule"]
+  }
+}

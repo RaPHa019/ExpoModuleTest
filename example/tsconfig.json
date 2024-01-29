@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "com.loggi.teste.toolbox": ["../src/index"],
+      "com.loggi.teste.toolbox/*": ["../src/*"]
+    }
+  }
+}
